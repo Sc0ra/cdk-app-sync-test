@@ -76,5 +76,9 @@
       "path": "packages/cdk-configuration",
       "name": "cdk configuration [library]"
     },
+    {
+      "path": "services/backend",
+      "name": "backend [service]"
+    }
   ]
 }
