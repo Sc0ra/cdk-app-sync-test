@@ -12,3 +12,6 @@ input DemoInput {
 type Mutation {
   createDemo(input: DemoInput!): demo
 }
+type Subscription {
+  onDemoCreated: demo @aws_subscribe(mutations: ["createDemo"])
+}
